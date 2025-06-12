@@ -20,7 +20,8 @@
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "storybook:deploy": "storybook build -o storybook-static && gh-pages -d storybook-static"
+    "storybook:deploy": "storybook build -o storybook-static && gh-pages -d storybook-static --git --depth=1"
+
   },
   "eslintConfig": {
     "extends": [
@@ -43,7 +44,9 @@
   "devDependencies": {
     "@storybook/addon-docs": "^9.0.8",
     "@storybook/addon-onboarding": "^9.0.8",
+    "@storybook/cli": "^9.0.9",
     "@storybook/preset-create-react-app": "^9.0.8",
+    "@storybook/react": "^9.0.9",
     "@storybook/react-webpack5": "^9.0.8",
     "eslint-plugin-storybook": "^9.0.8",
     "gh-pages": "^6.3.0",
