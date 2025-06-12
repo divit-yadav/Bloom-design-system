@@ -28,3 +28,14 @@
   padding: 12px 24px;
   font-size: 16px;
 }
+
+.storybook-button__icon {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.storybook-button__icon:first-child {
+  margin-left: 0;
+  margin-right: 8px;
+}
