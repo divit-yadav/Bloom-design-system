@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write  # This gives the action permission to push
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
