@@ -1,6 +1,5 @@
-import { fn } from 'storybook/test';
-
 import { Header } from './Header';
+import { action } from '@storybook/addon-actions';
 
 export default {
   title: 'Example/Header',
@@ -12,9 +11,9 @@ export default {
     layout: 'fullscreen',
   },
   args: {
-    onLogin: fn(),
-    onLogout: fn(),
-    onCreateAccount: fn(),
+    onLogin: action('login'),
+    onLogout: action('logout'),
+    onCreateAccount: action('createAccount'),
   },
 };
 

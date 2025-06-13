@@ -1,4 +1,5 @@
-import { expect, userEvent, within } from 'storybook/test';
+import { userEvent, within } from '@storybook/testing-library';
+import { expect } from '@storybook/jest';
 
 import { Page } from './Page';
 
