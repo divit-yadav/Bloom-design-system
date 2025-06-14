@@ -2,7 +2,7 @@ import { Header } from './Header';
 import { action } from '@storybook/addon-actions';
 
 export default {
-  title: 'Example/Header',
+  title: 'Example/Navigation/Header',
   component: Header,
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],

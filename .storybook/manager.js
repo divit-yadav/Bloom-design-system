@@ -11,7 +11,7 @@ const myTheme = create({
   barBg: '#f0f3f4', // Sets the sidebar and top bar color
   brandTitle: 'Bloom Design System',
   brandUrl: homepage,
-  brandImage: `/logo.svg`, // Absolute path for GitHub Pages
+  brandImage: `${homepage}/logo.svg`, // Absolute path for GitHub Pages
 });
 
 addons.setConfig({
