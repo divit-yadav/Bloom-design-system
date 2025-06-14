@@ -10,8 +10,8 @@ const myTheme = create({
   appBg: '#f0f3f4', // Sets the background color of the UI
   barBg: '#f0f3f4', // Sets the sidebar and top bar color
   brandTitle: 'Bloom Design System',
-  brandUrl: homepage,
-  brandImage: `${homepage}/logo.svg`, // Absolute path for GitHub Pages
+  brandUrl: 'https://divit-yadav.github.io/Bloom-design-system',
+  brandImage: 'https://divit-yadav.github.io/Bloom-design-system/logo.svg',
 });
 
 addons.setConfig({
