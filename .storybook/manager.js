@@ -3,7 +3,7 @@
 import { addons } from '@storybook/manager-api';
 import { create } from '@storybook/theming';
 
-const homepage = 'https://divit-yadav.github.io/my-design-system'; // Your GitHub Pages homepage
+const homepage = 'https://divit-yadav.github.io/Bloom-design-system'; // Your GitHub Pages homepage
 
 const myTheme = create({
   base: 'light',
