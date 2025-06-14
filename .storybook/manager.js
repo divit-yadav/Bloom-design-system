@@ -9,7 +9,7 @@ const myTheme = create({
   barBg: '#f0f3f4', // Sets the sidebar and top bar color
   brandTitle: 'Bloom Design System',
   brandUrl: 'https://divit-yadav.github.io/my-design-system',
-  brandImage: '/logo.svg', // Uncomment and set if you have a logo
+  brandImage: 'logo.svg', // Uncomment and set if you have a logo
 });
 
 addons.setConfig({
