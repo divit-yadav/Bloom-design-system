@@ -51,7 +51,7 @@
     "@storybook/testing-library": "^0.2.2",
     "gh-pages": "^6.3.0",
     "prop-types": "^15.8.1",
-    "storybook": "^7.6.17",
+    "storybook": "^7.6.20",
     "webpack": "^5.99.9"
   }
 }
